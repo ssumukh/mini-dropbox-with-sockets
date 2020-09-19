@@ -3,10 +3,11 @@
 Implemented an Application Level program for a P2P-network to keep two separate directories synced, similar to Dropbox. Used sockets to communicate; maintained file-indices, and MD5 hashes on all peers.
 
 ## Description
-- There are three parts of the project
-	- ![before_thread](/before_thread) , in which one box can run server and other client. Client can ask for any service via command line interface and it is served by the server on the other side.
-	- ![with_thread](/with_thread) , in which each box can run server and client simulteneously via threads. So both the boxes can ask services to one another via command line.
-	- ![with_sync](/with_sync) , in which both the boxes run the code in background and sync the directory to each other after some specific time interval.
+
+There are three parts of the project
+* [before_thread](/before_thread) , in which one box can run server and other client. Client can ask for any service via command line interface and it is served by the server on the other side.
+* [with_thread](/with_thread) , in which each box can run server and client simulteneously via threads. So both the boxes can ask services to one another via command line.
+* [with_sync](/with_sync) , in which both the boxes run the code in background and sync the directory to each other after some specific time interval.
 
 ## Features
 
